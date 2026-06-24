@@ -1,0 +1,173 @@
+body {
+    height: 100vh;
+    background-image: url(img/upscaled/Mio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.trailer {
+    width: 380px;
+    height: 380px;
+    right: 296px;
+    top: 65px;
+    object-fit: cover;
+    position: absolute;
+    transform: rotate(-14.2deg);
+    border-radius: 6px;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 3px;
+}
+
+.Mio {
+    right: 50px;
+    bottom: 5px;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 300;
+    font-style: italic;
+    transform: rotate(-38deg);
+}
+
+.text {
+    right: 150px;
+    bottom: 80px;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 300;
+    font-style: italic;
+    transform: rotate(-40deg);
+}
+
+
+.rest {
+    right: 450px;
+    bottom: 50px;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 300;
+    font-style: italic;
+    transform: rotate(-35deg);
+}
+
+.Img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -50px;
+    right: 400px;
+    transform: rotate(-32deg);
+    border-radius: 20px;
+}
+
+.card {
+    display: block;
+
+    width: 300px;
+    height: 100px;
+
+    background-color: rgb(255, 155, 188);
+    border-radius: 20px;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    line-height: 80px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    left: 50px;
+    top: 580px;
+
+    transition: 0.3s;
+    opacity: 0.95;
+}
+
+.card:hover{
+    background-color: rgba(255,192,203,0.7);
+    transform: scale(1.1);
+}
+
+.card1{
+    display: block;
+    text-align: center;
+    background-color: #6bf0f0;
+
+    width: 300px;
+    height: 100px;
+
+    font-size: 30px;
+
+    display: flex;
+    border-radius: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Montserrat';
+    opacity: 0.95;
+    transition: 0.3s;
+
+    line-height: 80px;
+
+    position: absolute;
+    left: 50px;
+    top: 700px;
+}
+
+.card1:hover{
+    background-color:rgb(145, 240, 235,0.7);
+    transform: scale(1.1);
+}
+
+.gallery{
+
+    display: block;
+    background-color: rgb(206, 193, 255);
+    text-align: center;
+
+    width: 300px;
+    height: 100px;
+
+    align-items:center;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+
+    align-content: center;
+
+    border-radius: 20px;
+
+    top: 820px;
+    left: 50px;
+    position:absolute;
+
+    color: black;
+
+
+    font-size: 30px;
+
+    opacity: 0.95;
+    transition: 0.3s;
+}
+
+.gallery:hover{
+    background-color: rgba(211, 201, 250, 0.7);
+    transform: scale(1.1);
+}
